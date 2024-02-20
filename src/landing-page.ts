@@ -220,7 +220,7 @@ class LandingPage extends LitElement {
 
   headerTemplate() {
     return html`<div class="header">
-      <p>⛵︎ experience.design</p>
+      <p>⏺ experience.design</p>
       <p>·</p>
       <div class="index">
         ${this.pages.map(
@@ -233,6 +233,9 @@ class LandingPage extends LitElement {
       <p><a href="/empathy">start →</a></p>
     </div>`;
   }
+
+  coverImageAddress =
+    'https://media.discordapp.net/attachments/1180134288210018314/1209537739482071110/image.png?ex=65e748cd&is=65d4d3cd&hm=b2a25816cf69bc387e5b359dc52845ce5883f72be84c073da4a0947a227d8453&=&format=webp&quality=lossless';
 
   render() {
     return html`
@@ -271,7 +274,7 @@ class LandingPage extends LitElement {
         </div>
         <div class="lightbox-container">
           <img
-            src="/assets/cover-illustration.png"
+            src=${this.coverImageAddress}
             alt="Abstract illustration combining pencil sketch drawing enchanted with midjourney-esque hyperstylization"
           />
         </div>
