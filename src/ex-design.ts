@@ -10,7 +10,7 @@ import './projects/context-page.js';
 import './projects/collage-page.js';
 
 const routes = [
-  { path: '', component: 'landing-page' },
+  { path: '.', component: 'landing-page' },
   { path: 'empathy', component: 'empathy-page' },
   { path: 'decomposition', component: 'decomposition-page' },
   { path: 'analogy', component: 'analogy-page' },
