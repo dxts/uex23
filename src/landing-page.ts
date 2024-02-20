@@ -208,12 +208,12 @@ class LandingPage extends LitElement {
   `;
 
   pages = [
-    'empathy',
-    'decomposition',
-    'analogy',
-    'style',
-    'context',
-    'collage',
+    '/uex23/empathy',
+    '/uex23/decomposition',
+    '/uex23/analogy',
+    '/uex23/style',
+    '/uex23/context',
+    '/uex23/collage',
   ];
 
   roman_numerals = ['Ⅰ', 'Ⅱ', 'Ⅲ', 'Ⅳ', 'Ⅴ', 'Ⅵ'];
@@ -230,7 +230,7 @@ class LandingPage extends LitElement {
         )}
       </div>
       <p>·</p>
-      <p><a href="empathy">start →</a></p>
+      <p><a href="/uex23/empathy">start →</a></p>
     </div>`;
   }
 

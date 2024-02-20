@@ -206,12 +206,12 @@ class ProjectPage extends LitElement {
   `;
 
   pages = [
-    'empathy',
-    'decomposition',
-    'analogy',
-    'style',
-    'context',
-    'collage',
+    '/uex23/empathy',
+    '/uex23/decomposition',
+    '/uex23/analogy',
+    '/uex23/style',
+    '/uex23/context',
+    '/uex23/collage',
   ];
 
   roman_numerals = ['Ⅰ', 'Ⅱ', 'Ⅲ', 'Ⅳ', 'Ⅴ', 'Ⅵ'];
@@ -226,7 +226,7 @@ class ProjectPage extends LitElement {
     const currentPageIndex = this.pages.indexOf(currentPage);
 
     return html`<div class="header">
-      <p><a href=".">⬅</a> <a href=".">experience.design</a></p>
+      <p><a href="/uex23/">⬅ experience.design</a></p>
       <p>·</p>
       <div class="index">
         ${this.pages.map((page, index) => {
