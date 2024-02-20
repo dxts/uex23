@@ -216,11 +216,6 @@ class ProjectPage extends LitElement {
 
   roman_numerals = ['Ⅰ', 'Ⅱ', 'Ⅲ', 'Ⅳ', 'Ⅴ', 'Ⅵ'];
 
-  // eslint-disable-next-line class-methods-use-this
-  returnHome() {
-    window.location.href = `/`;
-  }
-
   headerTemplate() {
     const currentPage = window.location.pathname;
     const currentPageIndex = this.pages.indexOf(currentPage);

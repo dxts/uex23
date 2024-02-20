@@ -266,7 +266,7 @@ class LandingPage extends LitElement {
 
           <button
             @click=${() => {
-              window.location.href = '/empathy';
+              window.location.href = '/uex23/empathy';
             }}
           >
             <div class="typewriter">explore ↝</div>
